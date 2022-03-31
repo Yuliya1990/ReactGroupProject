@@ -1,4 +1,4 @@
-import Main from './pages/LandingPage/components/MainContainer/Main.jsx';
+import LandingPage from './pages/LandingPage/components/MainContainer/Main.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route path="/" element={<LandingPage />} />
         </Routes>
       </div>
     </BrowserRouter>
